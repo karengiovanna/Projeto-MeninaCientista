@@ -1,0 +1,36 @@
+
+/* Falta centralizar
+    
+*/
+.layout-cabecalho{
+    width: 100%;
+    /* border: 0.5px #000000 solid; */
+    
+    display: flex;
+    
+}
+.cabecalho-menu{
+    color:#e10000;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px #eee01e solid;
+    
+}
+
+/* itens do menu */
+.menu__item{
+    display: inline;
+    border: 0.5px #30ee1e solid;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* logo, que esta dentro do menu */
+.menu__logo{
+    max-width: 270px;
+    border: 0.5px #d41b1b solid;
+}
+
