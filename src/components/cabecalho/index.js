@@ -6,21 +6,36 @@ import './Cabecalho.css';
 
 function Cabecalho(){
     return(
-      
-        <nav>
-            
-            <ul className="cabecalho-menu">
-                <li className="menu__item">Inicio</li>
-                <li className="menu__item">Sobre</li>
-                <li className="menu__item">
-                    <img className="menu__logo" src={Logo} alt="Logo menina-cientista"/>
-                </li>
-                <li className="menu__item">Videos</li>
-                <li className="menu__item">Contato</li>
-                                
-            </ul>
-        </nav>
-  
+        
+        <header className="header" >
+            <nav>
+                
+                <ul className="menu__cabecalho">
+                    <li className="menu__item"> 
+                        <a href ="index.html">Inicio</a>
+                    </li>
+                    
+                    <li className="menu__item">
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    
+                    <li className="menu__item">
+                        <a href="index.html">
+                            <img className="menu__logo" src={Logo} alt="Logo menina-cientista"/>
+                        </a>
+                    </li>
+                    
+                    <li className="menu__item">
+                        <a href="videos.html">Videos</a>
+                    </li>
+                    
+                    <li className="menu__item">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                                    
+                </ul>
+            </nav>
+        </header>
     );
    
 

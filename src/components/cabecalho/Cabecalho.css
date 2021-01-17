@@ -1,34 +1,35 @@
 
-/* Falta centralizar
-    
+/* podemos trocar o nome layout-cabecalho por header??
 */
-.layout-cabecalho{
-    width: 100%;
-    /* border: 0.5px #000000 solid; */
-    
-    display: flex;
-    
+header{
+    background-color:#ffdedd;
+
 }
-.cabecalho-menu{
+
+.menu__cabecalho{
     color:#e10000;
     margin: 0;
-    width: 100%;
+    
     align-items: center;
     justify-content: center;
-    border: 0.5px #eee01e solid;
-    
+    border: 0.5px #eee01e solid;  
 }
 
 /* itens do menu */
 .menu__item{
     display: inline;
+    margin: 0 0 0 5%;
     border: 0.5px #30ee1e solid;
-    text-align: justify;
     padding-left: 1%;
     padding-right: 1%;
+    font-size: x-large;
+    
 }
 
-/* logo, que esta dentro do menu */
+.menu__item a{
+    text-decoration: none;
+}
+
 .menu__logo{
     max-width: 270px;
     border: 0.5px #d41b1b solid;
