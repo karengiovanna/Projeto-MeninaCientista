@@ -11,5 +11,9 @@ Vermelho #e10000
 Rosa #ffdedd
 ![c622afc043c92b50535760951d5a8490](https://user-images.githubusercontent.com/49700354/104823125-1fc1f480-581e-11eb-8c2f-458635d5b070.jpg)
 
+## Logotipo oficial: 
+Feito na plataforma de Design Canva 
+e utilizado um elemento gratuito de lupa.
+![Laranja Ícone de Flor Floral Logotipo](https://user-images.githubusercontent.com/49700354/104829021-f0bf7900-5845-11eb-916c-6b4ec92fed82.png)
 
 
