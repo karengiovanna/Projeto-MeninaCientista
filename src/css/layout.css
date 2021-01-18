@@ -1,0 +1,25 @@
+.layout-cabecalho {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+  
+    background-color: #fff;
+}
+
+.layout-sessao {
+  padding: 80px 0;
+  margin-top: 60px;
+
+  background-color: #ffdedd;
+}
+
+  .layout-rodape {
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    padding: 40px 0;
+  
+    background-color: #ffdedd;
+  
+    color: #e10000;
+    text-align: center;
+  }

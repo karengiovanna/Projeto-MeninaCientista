@@ -1,25 +1,10 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+html {
+  font-size: 62.5%; /* 10px */
 }
 
-:root {
-  --primary: #2A7AE4;
-  --black: #000000;
-  --blackLighter: #9E9E9E;
-  --grayLight: #F5F5F5;
-  --grayMedium: #e5e5e5; 
-  --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
-}
-
-html,
 body {
   margin: 0;
-  padding: 0;
+  background-color: #f5f6fd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
 }
-
-a {
-  color: inherit;
-} 
