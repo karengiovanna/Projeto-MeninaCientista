@@ -1,4 +1,44 @@
 /*------------------*\
+      CABECALHO
+\*------------------*/
+
+.nav-menu{
+  box-sizing: border-box;
+  width: auto;
+  text-align: center;
+}
+.menu__cabecalho{
+  color:#e10000;
+  padding-inline-start: 0px;
+  height: 77px;
+  left: 0;
+  right: 0;
+  margin: auto; 
+  
+}
+/* itens do menu */
+.menu__item{
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: x-large;
+  
+}
+
+.menu__item a{
+  text-decoration: none;
+}
+
+.menu__logo{
+  max-width: 270px;
+  border: 0.5px #d41b1b solid;
+}
+
+
+
+
+
+/*------------------*\
         SESSÃO
 \*------------------*/
 
@@ -25,3 +65,5 @@
   
     font-size: 1em;
   }
+
+  
